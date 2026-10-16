@@ -1,0 +1,747 @@
+[
+  {
+    "file": "AppFileController.java",
+    "httpMethod": "POST",
+    "fullPath": "/infra/file/upload"
+  },
+  {
+    "file": "AppFileController.java",
+    "httpMethod": "GET",
+    "fullPath": "/infra/file/presigned-url"
+  },
+  {
+    "file": "AppFileController.java",
+    "httpMethod": "POST",
+    "fullPath": "/infra/file/create"
+  },
+  {
+    "file": "AppCategoryController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/category/list"
+  },
+  {
+    "file": "AppCategoryController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/category/list-by-ids"
+  },
+  {
+    "file": "AppProductCommentController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/comment/page"
+  },
+  {
+    "file": "AppFavoriteController.java",
+    "httpMethod": "POST",
+    "fullPath": "/product/favorite/create"
+  },
+  {
+    "file": "AppFavoriteController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/product/favorite/delete"
+  },
+  {
+    "file": "AppFavoriteController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/favorite/page"
+  },
+  {
+    "file": "AppFavoriteController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/favorite/exits"
+  },
+  {
+    "file": "AppFavoriteController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/favorite/get-count"
+  },
+  {
+    "file": "AppProductBrowseHistoryController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/product/browse-history/delete"
+  },
+  {
+    "file": "AppProductBrowseHistoryController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/product/browse-history/clean"
+  },
+  {
+    "file": "AppProductBrowseHistoryController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/browse-history/page"
+  },
+  {
+    "file": "AppProductSpuController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/spu/list-by-ids"
+  },
+  {
+    "file": "AppProductSpuController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/spu/page"
+  },
+  {
+    "file": "AppProductSpuController.java",
+    "httpMethod": "GET",
+    "fullPath": "/product/spu/get-detail"
+  },
+  {
+    "file": "AppActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/activity/list-by-spu-id"
+  },
+  {
+    "file": "AppArticleController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/promotion/article/add-browse-count"
+  },
+  {
+    "file": "AppBannerController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/banner/list"
+  },
+  {
+    "file": "AppBannerController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/promotion/banner/add-browse-count"
+  },
+  {
+    "file": "AppBargainActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-activity/list"
+  },
+  {
+    "file": "AppBargainActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-activity/page"
+  },
+  {
+    "file": "AppBargainActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-activity/get-detail"
+  },
+  {
+    "file": "AppBargainHelpController.java",
+    "httpMethod": "POST",
+    "fullPath": "/promotion/bargain-help/create"
+  },
+  {
+    "file": "AppBargainHelpController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-help/list"
+  },
+  {
+    "file": "AppBargainRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-record/get-summary"
+  },
+  {
+    "file": "AppBargainRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-record/get-detail"
+  },
+  {
+    "file": "AppBargainRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/bargain-record/page"
+  },
+  {
+    "file": "AppBargainRecordController.java",
+    "httpMethod": "POST",
+    "fullPath": "/promotion/bargain-record/create"
+  },
+  {
+    "file": "AppCombinationActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-activity/page"
+  },
+  {
+    "file": "AppCombinationActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-activity/list-by-ids"
+  },
+  {
+    "file": "AppCombinationActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-activity/get-detail"
+  },
+  {
+    "file": "AppCombinationRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-record/get-summary"
+  },
+  {
+    "file": "AppCombinationRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-record/get-head-list"
+  },
+  {
+    "file": "AppCombinationRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-record/page"
+  },
+  {
+    "file": "AppCombinationRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/combination-record/get-detail"
+  },
+  {
+    "file": "AppCouponController.java",
+    "httpMethod": "POST",
+    "fullPath": "/promotion/coupon/take"
+  },
+  {
+    "file": "AppCouponController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon/page"
+  },
+  {
+    "file": "AppCouponController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon/get"
+  },
+  {
+    "file": "AppCouponController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon/get-unused-count"
+  },
+  {
+    "file": "AppCouponTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon-template/get"
+  },
+  {
+    "file": "AppCouponTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon-template/list"
+  },
+  {
+    "file": "AppCouponTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon-template/list-by-ids"
+  },
+  {
+    "file": "AppCouponTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/coupon-template/page"
+  },
+  {
+    "file": "AppDiyPageController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/diy-page/get"
+  },
+  {
+    "file": "AppDiyTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/diy-template/used"
+  },
+  {
+    "file": "AppDiyTemplateController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/diy-template/get"
+  },
+  {
+    "file": "AppKeFuMessageController.java",
+    "httpMethod": "POST",
+    "fullPath": "/promotion/kefu-message/send"
+  },
+  {
+    "file": "AppKeFuMessageController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/promotion/kefu-message/update-read-status"
+  },
+  {
+    "file": "AppKeFuMessageController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/kefu-message/list"
+  },
+  {
+    "file": "AppPointActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/point-activity/page"
+  },
+  {
+    "file": "AppPointActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/point-activity/get-detail"
+  },
+  {
+    "file": "AppPointActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/point-activity/list-by-ids"
+  },
+  {
+    "file": "AppRewardActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/reward-activity/get"
+  },
+  {
+    "file": "AppSeckillActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/seckill-activity/get-now"
+  },
+  {
+    "file": "AppSeckillActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/seckill-activity/page"
+  },
+  {
+    "file": "AppSeckillActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/seckill-activity/get-detail"
+  },
+  {
+    "file": "AppSeckillActivityController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/seckill-activity/list-by-ids"
+  },
+  {
+    "file": "AppSeckillConfigController.java",
+    "httpMethod": "GET",
+    "fullPath": "/promotion/seckill-config/list"
+  },
+  {
+    "file": "AppAfterSaleController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/after-sale/page"
+  },
+  {
+    "file": "AppAfterSaleController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/after-sale/get"
+  },
+  {
+    "file": "AppAfterSaleController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/after-sale/create"
+  },
+  {
+    "file": "AppAfterSaleController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/after-sale/delivery"
+  },
+  {
+    "file": "AppAfterSaleController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/trade/after-sale/cancel"
+  },
+  {
+    "file": "AppAfterSaleLogController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/after-sale-log/list"
+  },
+  {
+    "file": "AppBrokerageRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-record/page"
+  },
+  {
+    "file": "AppBrokerageRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-record/get-product-brokerage-price"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/get"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/brokerage-user/bind"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/get-summary"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/rank-page-by-user-count"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/rank-page-by-price"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/child-summary-page"
+  },
+  {
+    "file": "AppBrokerageUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-user/get-rank-by-price"
+  },
+  {
+    "file": "AppBrokerageWithdrawController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-withdraw/page"
+  },
+  {
+    "file": "AppBrokerageWithdrawController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/brokerage-withdraw/get"
+  },
+  {
+    "file": "AppBrokerageWithdrawController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/brokerage-withdraw/create"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/cart/add"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/cart/update-count"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/cart/update-selected"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/cart/reset"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/trade/cart/delete"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/cart/get-count"
+  },
+  {
+    "file": "AppCartController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/cart/list"
+  },
+  {
+    "file": "AppTradeConfigController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/config/get"
+  },
+  {
+    "file": "AppDeliverExpressController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/delivery/express/list"
+  },
+  {
+    "file": "AppDeliverPickUpStoreController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/delivery/pick-up-store/list"
+  },
+  {
+    "file": "AppDeliverPickUpStoreController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/delivery/pick-up-store/get"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/settlement"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/settlement-product"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/order/create"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/order/update-paid"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/get-detail"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/get-express-track-list"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/page"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/get-count"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/trade/order/receive"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/trade/order/cancel"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/trade/order/delete"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/trade/order/item/get"
+  },
+  {
+    "file": "AppTradeOrderController.java",
+    "httpMethod": "POST",
+    "fullPath": "/trade/order/item/create-comment"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/address/create"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/address/update"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/member/address/delete"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/address/get"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/address/get-default"
+  },
+  {
+    "file": "AppAddressController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/address/list"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/login"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/logout"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/refresh-token"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/sms-login"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/send-sms-code"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/validate-sms-code"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/auth/social-auth-redirect"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/social-login"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/weixin-mini-app-login"
+  },
+  {
+    "file": "AppAuthController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/auth/create-weixin-jsapi-signature"
+  },
+  {
+    "file": "AppMemberExperienceRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/experience-record/page"
+  },
+  {
+    "file": "AppMemberLevelController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/level/list"
+  },
+  {
+    "file": "AppMemberPointRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/point/record/page"
+  },
+  {
+    "file": "AppMemberSignInConfigController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/sign-in/config/list"
+  },
+  {
+    "file": "AppMemberSignInRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/sign-in/record/get-summary"
+  },
+  {
+    "file": "AppMemberSignInRecordController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/sign-in/record/create"
+  },
+  {
+    "file": "AppMemberSignInRecordController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/sign-in/record/page"
+  },
+  {
+    "file": "AppSocialUserController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/social-user/bind"
+  },
+  {
+    "file": "AppSocialUserController.java",
+    "httpMethod": "DELETE",
+    "fullPath": "/member/social-user/unbind"
+  },
+  {
+    "file": "AppSocialUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/social-user/get"
+  },
+  {
+    "file": "AppSocialUserController.java",
+    "httpMethod": "POST",
+    "fullPath": "/member/social-user/wxa-qrcode"
+  },
+  {
+    "file": "AppSocialUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/social-user/get-subscribe-template-list"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "GET",
+    "fullPath": "/member/user/get"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/user/update"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/user/update-mobile"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/user/update-mobile-by-weixin"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/user/update-password"
+  },
+  {
+    "file": "AppMemberUserController.java",
+    "httpMethod": "PUT",
+    "fullPath": "/member/user/reset-password"
+  },
+  {
+    "file": "AppPayChannelController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/channel/get-enable-code-list"
+  },
+  {
+    "file": "AppPayOrderController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/order/get"
+  },
+  {
+    "file": "AppPayOrderController.java",
+    "httpMethod": "POST",
+    "fullPath": "/pay/order/submit"
+  },
+  {
+    "file": "AppPayTransferController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/transfer/sync"
+  },
+  {
+    "file": "AppPayWalletController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/wallet/get"
+  },
+  {
+    "file": "AppPayWalletRechargeController.java",
+    "httpMethod": "POST",
+    "fullPath": "/pay/wallet-recharge/create"
+  },
+  {
+    "file": "AppPayWalletRechargeController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/wallet-recharge/page"
+  },
+  {
+    "file": "AppPayWalletRechargePackageController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/wallet-recharge-package/list"
+  },
+  {
+    "file": "AppPayWalletTransactionController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/wallet-transaction/page"
+  },
+  {
+    "file": "AppPayWalletTransactionController.java",
+    "httpMethod": "GET",
+    "fullPath": "/pay/wallet-transaction/get-summary"
+  },
+  {
+    "file": "AppDictDataController.java",
+    "httpMethod": "GET",
+    "fullPath": "/system/dict-data/type"
+  },
+  {
+    "file": "AppAreaController.java",
+    "httpMethod": "GET",
+    "fullPath": "/system/area/tree"
+  },
+  {
+    "file": "AppTenantController.java",
+    "httpMethod": "GET",
+    "fullPath": "/system/tenant/get-by-website"
+  }
+]

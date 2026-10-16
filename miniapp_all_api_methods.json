@@ -1,0 +1,1682 @@
+[
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "icon",
+    "comment": "icon",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "title",
+    "comment": "title",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "fail",
+    "comment": "fail",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "complete",
+    "comment": "complete",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "getFilePresignedUrl",
+    "comment": "获取文件预签名地址",
+    "url": "/infra/file/presigned-url",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/infra/file.js",
+    "methodName": "createFile",
+    "comment": "创建文件",
+    "url": "/infra/file/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "getAddressList",
+    "comment": "获得用户收件地址列表",
+    "url": "/member/address/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "createAddress",
+    "comment": "创建用户收件地址",
+    "url": "/member/address/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/address/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/address/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "updateAddress",
+    "comment": "更新用户收件地址",
+    "url": "/member/address/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/address/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/address/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "getAddress",
+    "comment": "获得用户收件地址",
+    "url": "/member/address/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/address.js",
+    "methodName": "deleteAddress",
+    "comment": "删除用户收件地址",
+    "url": "/member/address/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "login",
+    "comment": "使用手机 + 密码登录",
+    "url": "/member/auth/login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/sms-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/sms-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/auth/sms-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "smsLogin",
+    "comment": "使用手机 + 验证码登录",
+    "url": "/member/auth/sms-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/send-sms-code",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/send-sms-code",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/auth/send-sms-code",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "sendSmsCode",
+    "comment": "发送手机验证码",
+    "url": "/member/auth/send-sms-code",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/logout",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/logout",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/auth/logout",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "logout",
+    "comment": "登出系统",
+    "url": "/member/auth/logout",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "refreshToken",
+    "comment": "刷新令牌",
+    "url": "/member/auth/refresh-token",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showLoading",
+    "comment": "不用加载中",
+    "url": "/member/auth/social-auth-redirect",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showError",
+    "comment": "不展示错误提示",
+    "url": "/member/auth/social-auth-redirect",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "socialAuthRedirect",
+    "comment": "社交授权的跳转",
+    "url": "/member/auth/social-auth-redirect",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/social-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/social-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "socialLogin",
+    "comment": "社交快捷登录",
+    "url": "/member/auth/social-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/weixin-mini-app-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/weixin-mini-app-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "weixinMiniAppLogin",
+    "comment": "微信小程序的一键登录",
+    "url": "/member/auth/weixin-mini-app-login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/auth/create-weixin-jsapi-signature",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/auth/create-weixin-jsapi-signature",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/auth/create-weixin-jsapi-signature",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/auth.js",
+    "methodName": "createWeixinMpJsapiSignature",
+    "comment": "创建微信 JS SDK 初始化所需的签名",
+    "url": "/member/auth/create-weixin-jsapi-signature",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/point.js",
+    "methodName": "getPointRecordPage",
+    "comment": "获得用户积分记录分页",
+    "url": "/member/point/record/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/point.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/member/point/record/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/signin.js",
+    "methodName": "getSignInConfigList",
+    "comment": "获得签到规则列表",
+    "url": "/member/sign-in/config/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/signin.js",
+    "methodName": "getSignInRecordSummary",
+    "comment": "获得个人签到统计",
+    "url": "/member/sign-in/record/get-summary",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/signin.js",
+    "methodName": "createSignInRecord",
+    "comment": "签到",
+    "url": "/member/sign-in/record/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/signin.js",
+    "methodName": "getSignRecordPage",
+    "comment": "获得签到记录分页",
+    "url": "/member/sign-in/record/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "getSocialUser",
+    "comment": "获得社交用户",
+    "url": "/member/social-user/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/member/social-user/bind",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "socialBind",
+    "comment": "社交绑定",
+    "url": "/member/social-user/bind",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/social-user/unbind",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/social-user/unbind",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/social-user/unbind",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "socialUnbind",
+    "comment": "社交绑定",
+    "url": "/member/social-user/unbind",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/member/social-user/get-subscribe-template-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/social-user/get-subscribe-template-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/social-user/get-subscribe-template-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "getSubscribeTemplateList",
+    "comment": "获取订阅消息模板列表",
+    "url": "/member/social-user/get-subscribe-template-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "request",
+    "comment": "request",
+    "url": "/member/social-user/get-subscribe-template-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/member/social-user/wxa-qrcode",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/member/social-user/wxa-qrcode",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/social.js",
+    "methodName": "getWxaQrcode",
+    "comment": "获取微信小程序码",
+    "url": "/member/social-user/wxa-qrcode",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "getUserInfo",
+    "comment": "获得基本信息",
+    "url": "/member/user/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/member/user/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/member/user/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "updateUser",
+    "comment": "修改基本信息",
+    "url": "/member/user/update",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/member/user/update-mobile",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/user/update-mobile",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/user/update-mobile",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "updateUserMobile",
+    "comment": "修改用户手机",
+    "url": "/member/user/update-mobile",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/user/update-mobile-by-weixin",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/user/update-mobile-by-weixin",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/user/update-mobile-by-weixin",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "updateUserMobileByWeixin",
+    "comment": "基于微信小程序的授权码，修改用户手机",
+    "url": "/member/user/update-mobile-by-weixin",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/user/update-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/user/update-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/user/update-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "updateUserPassword",
+    "comment": "修改密码",
+    "url": "/member/user/update-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/member/user/reset-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/member/user/reset-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/member/user/reset-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/member/user.js",
+    "methodName": "resetUserPassword",
+    "comment": "重置密码",
+    "url": "/member/user/reset-password",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "mplive",
+    "comment": "小程序直播",
+    "url": "app/mplive/getRoomList",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "getRoomList",
+    "comment": "getRoomList",
+    "url": "app/mplive/getRoomList",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "request",
+    "comment": "request",
+    "url": "app/mplive/getRoomList",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "ids",
+    "comment": "ids",
+    "url": "app/mplive/getMpLink",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "getMpLink",
+    "comment": "getMpLink",
+    "url": "app/mplive/getMpLink",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/app.js",
+    "methodName": "request",
+    "comment": "request",
+    "url": "app/mplive/getMpLink",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/migration/third.js",
+    "methodName": "apple",
+    "comment": "苹果相关",
+    "url": "third/apple/login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/migration/third.js",
+    "methodName": "login",
+    "comment": "第三方登录",
+    "url": "third/apple/login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/migration/third.js",
+    "methodName": "request",
+    "comment": "request",
+    "url": "third/apple/login",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/pay/channel.js",
+    "methodName": "getEnableChannelCodeList",
+    "comment": "获得指定应用的开启的支付渠道编码列表",
+    "url": "/pay/channel/get-enable-code-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/order.js",
+    "methodName": "getOrder",
+    "comment": "获得支付订单",
+    "url": "/pay/order/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/pay/order/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/pay/order/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/pay/order/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/order.js",
+    "methodName": "submitOrder",
+    "comment": "提交支付订单",
+    "url": "/pay/order/submit",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/pay/transfer.js",
+    "methodName": "syncTransfer",
+    "comment": "同步转账单",
+    "url": "/pay/transfer/sync",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "getPayWallet",
+    "comment": "获取钱包",
+    "url": "/pay/wallet/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/pay/wallet-transaction/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/pay/wallet-transaction/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "getWalletTransactionPage",
+    "comment": "获得钱包流水分页",
+    "url": "/pay/wallet-transaction/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "getWalletTransactionSummary",
+    "comment": "获得钱包流水统计",
+    "url": "/pay/wallet-transaction/get-summary",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "getWalletRechargePackageList",
+    "comment": "获得钱包充值套餐列表",
+    "url": "/pay/wallet-recharge-package/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/pay/wallet-recharge/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/pay/wallet-recharge/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "createWalletRecharge",
+    "comment": "创建钱包充值记录（发起充值）",
+    "url": "/pay/wallet-recharge/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/pay/wallet.js",
+    "methodName": "getWalletRechargePage",
+    "comment": "获得钱包充值记录分页",
+    "url": "/pay/wallet-recharge/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/category.js",
+    "methodName": "getCategoryList",
+    "comment": "查询分类列表",
+    "url": "/product/category/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/category.js",
+    "methodName": "getCategoryListByIds",
+    "comment": "查询分类列表，指定编号",
+    "url": "/product/category/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/comment.js",
+    "methodName": "getCommentPage",
+    "comment": "获得商品评价分页",
+    "url": "/product/comment/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "getFavoritePage",
+    "comment": "获得商品收藏分页",
+    "url": "/product/favorite/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "isFavoriteExists",
+    "comment": "检查是否收藏过商品",
+    "url": "/product/favorite/exits",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "createFavorite",
+    "comment": "添加商品收藏",
+    "url": "/product/favorite/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/product/favorite/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/product/favorite/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/product/favorite/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/favorite.js",
+    "methodName": "deleteFavorite",
+    "comment": "取消商品收藏",
+    "url": "/product/favorite/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "deleteBrowseHistory",
+    "comment": "删除商品浏览记录",
+    "url": "/product/browse-history/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/product/browse-history/clean",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/product/browse-history/clean",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "cleanBrowseHistory",
+    "comment": "清空商品浏览记录",
+    "url": "/product/browse-history/clean",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/product/browse-history/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/product/browse-history/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/history.js",
+    "methodName": "getBrowseHistoryPage",
+    "comment": "获得商品浏览记录分页",
+    "url": "/product/browse-history/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "getSpuListByIds",
+    "comment": "获得商品 SPU 列表",
+    "url": "/product/spu/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "getSettlementProduct",
+    "comment": "获得商品结算信息",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/product/spu/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/product/spu/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "getSpuPage",
+    "comment": "获得商品 SPU 分页",
+    "url": "/product/spu/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/product/spu/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/product/spu/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/product/spu.js",
+    "methodName": "getSpuDetail",
+    "comment": "查询商品",
+    "url": "/product/spu/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/activity.js",
+    "methodName": "getActivityListBySpuId",
+    "comment": "获得单个商品，进行中的拼团、秒杀、砍价活动信息",
+    "url": "/promotion/activity/list-by-spu-id",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/article.js",
+    "methodName": "getArticle",
+    "comment": "获得文章详情",
+    "url": "/promotion/article/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationActivityPage",
+    "comment": "获得拼团活动分页",
+    "url": "/promotion/combination-activity/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationActivity",
+    "comment": "获得拼团活动明细",
+    "url": "/promotion/combination-activity/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationActivityListByIds",
+    "comment": "获得拼团活动列表，基于活动编号数组",
+    "url": "/promotion/combination-activity/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getHeadCombinationRecordList",
+    "comment": "获得最近 n 条拼团记录（团长发起的）",
+    "url": "/promotion/combination-record/get-head-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationRecordPage",
+    "comment": "获得我的拼团记录分页",
+    "url": "/promotion/combination-record/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationRecordDetail",
+    "comment": "获得拼团记录明细",
+    "url": "/promotion/combination-record/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/combination.js",
+    "methodName": "getCombinationRecordSummary",
+    "comment": "获得拼团记录的概要信息",
+    "url": "/promotion/combination-record/get-summary",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCouponTemplateListByIds",
+    "comment": "获得优惠劵模板列表",
+    "url": "/promotion/coupon-template/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "showLoading",
+    "comment": "不展示 Loading，避免领取优惠劵时，不成功提示",
+    "url": "/promotion/coupon-template/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/promotion/coupon-template/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCouponTemplateList",
+    "comment": "获得优惠劵模版列表",
+    "url": "/promotion/coupon-template/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCouponTemplatePage",
+    "comment": "获得优惠劵模版分页",
+    "url": "/promotion/coupon-template/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCouponTemplate",
+    "comment": "获得优惠劵模版",
+    "url": "/promotion/coupon-template/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCouponPage",
+    "comment": "我的优惠劵列表",
+    "url": "/promotion/coupon/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "takeCoupon",
+    "comment": "领取优惠券",
+    "url": "/promotion/coupon/take",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getCoupon",
+    "comment": "获得优惠劵",
+    "url": "/promotion/coupon/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/coupon.js",
+    "methodName": "getUnusedCouponCount",
+    "comment": "获得未使用的优惠劵数量",
+    "url": "/promotion/coupon/get-unused-count",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "getUsedDiyTemplate",
+    "comment": "getUsedDiyTemplate",
+    "url": "/promotion/diy-template/used",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/promotion/diy-template/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/promotion/diy-template/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "getDiyTemplate",
+    "comment": "getDiyTemplate",
+    "url": "/promotion/diy-template/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/promotion/diy-page/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/promotion/diy-page/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/diy.js",
+    "methodName": "getDiyPage",
+    "comment": "getDiyPage",
+    "url": "/promotion/diy-page/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "sendKefuMessage",
+    "comment": "sendKefuMessage",
+    "url": "/promotion/kefu-message/send",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "loadingMsg",
+    "comment": "loadingMsg",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/kefu.js",
+    "methodName": "getKefuMessageList",
+    "comment": "getKefuMessageList",
+    "url": "/promotion/kefu-message/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/point.js",
+    "methodName": "getPointActivityPage",
+    "comment": "获得积分商城活动分页",
+    "url": "promotion/point-activity/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/point.js",
+    "methodName": "getPointActivityListByIds",
+    "comment": "获得积分商城活动列表，基于活动编号数组",
+    "url": "/promotion/point-activity/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/point.js",
+    "methodName": "getPointActivity",
+    "comment": "获得积分商城活动明细",
+    "url": "promotion/point-activity/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/rewardActivity.js",
+    "methodName": "getRewardActivity",
+    "comment": "获得满减送活动",
+    "url": "/promotion/reward-activity/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/seckill.js",
+    "methodName": "getSeckillConfigList",
+    "comment": "获得秒杀时间段列表",
+    "url": "promotion/seckill-config/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/seckill.js",
+    "methodName": "getNowSeckillActivity",
+    "comment": "获得当前秒杀活动",
+    "url": "promotion/seckill-activity/get-now",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/seckill.js",
+    "methodName": "getSeckillActivityPage",
+    "comment": "获得秒杀活动分页",
+    "url": "promotion/seckill-activity/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/seckill.js",
+    "methodName": "getSeckillActivityListByIds",
+    "comment": "获得秒杀活动列表，基于活动编号数组",
+    "url": "/promotion/seckill-activity/list-by-ids",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/promotion/seckill.js",
+    "methodName": "getSeckillActivity",
+    "comment": "getSeckillActivity",
+    "url": "promotion/seckill-activity/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/system/area.js",
+    "methodName": "getAreaTree",
+    "comment": "获得地区树",
+    "url": "/system/area/tree",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/system/dict.js",
+    "methodName": "getDictDataListByType",
+    "comment": "根据字典类型查询字典数据信息",
+    "url": "/system/dict-data/type",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "getAfterSalePage",
+    "comment": "获得售后分页",
+    "url": "/trade/after-sale/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/after-sale/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "createAfterSale",
+    "comment": "创建售后",
+    "url": "/trade/after-sale/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "getAfterSale",
+    "comment": "获得售后",
+    "url": "/trade/after-sale/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "cancelAfterSale",
+    "comment": "取消售后",
+    "url": "/trade/after-sale/cancel",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "getAfterSaleLogList",
+    "comment": "获得售后日志列表",
+    "url": "/trade/after-sale-log/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/afterSale.js",
+    "methodName": "deliveryAfterSale",
+    "comment": "退回货物",
+    "url": "/trade/after-sale/delivery",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "bindBrokerageUser",
+    "comment": "绑定分销用户",
+    "url": "/trade/brokerage-user/bind",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageUser",
+    "comment": "获得个人分销信息",
+    "url": "/trade/brokerage-user/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageUserSummary",
+    "comment": "获得个人分销统计",
+    "url": "/trade/brokerage-user/get-summary",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageRecordPage",
+    "comment": "获得分销记录分页",
+    "url": "/trade/brokerage-record/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/trade/brokerage-record/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "createBrokerageWithdraw",
+    "comment": "创建分销提现",
+    "url": "/trade/brokerage-withdraw/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageWithdrawPage",
+    "comment": "获得分销提现分页",
+    "url": "/trade/brokerage-withdraw/page?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageWithdraw",
+    "comment": "获得分销提现详情",
+    "url": "/trade/brokerage-withdraw/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getProductBrokeragePrice",
+    "comment": "获得商品的分销金额",
+    "url": "/trade/brokerage-record/get-product-brokerage-price",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getRankByPrice",
+    "comment": "获得分销用户排行（基于佣金）",
+    "url": "/trade/brokerage-user/get-rank-by-price?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageUserChildSummaryPageByPrice",
+    "comment": "获得分销用户排行分页（基于佣金）",
+    "url": "/trade/brokerage-user/rank-page-by-price?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageUserRankPageByUserCount",
+    "comment": "获得分销用户排行分页（基于用户量）",
+    "url": "/trade/brokerage-user/rank-page-by-user-count?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/brokerage.js",
+    "methodName": "getBrokerageUserChildSummaryPage",
+    "comment": "获得下级分销统计分页",
+    "url": "/trade/brokerage-user/child-summary-page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "addCart",
+    "comment": "addCart",
+    "url": "/trade/cart/add",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "showSuccess",
+    "comment": "showSuccess",
+    "url": "/trade/cart/update-count",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "successMsg",
+    "comment": "successMsg",
+    "url": "/trade/cart/update-count",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "updateCartCount",
+    "comment": "updateCartCount",
+    "url": "/trade/cart/update-count",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "updateCartSelected",
+    "comment": "updateCartSelected",
+    "url": "/trade/cart/update-selected",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "deleteCart",
+    "comment": "deleteCart",
+    "url": "/trade/cart/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/trade/cart.js",
+    "methodName": "getCartList",
+    "comment": "getCartList",
+    "url": "/trade/cart/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/config.js",
+    "methodName": "getTradeConfig",
+    "comment": "获得交易配置",
+    "url": "/trade/config/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/delivery.js",
+    "methodName": "getDeliveryExpressList",
+    "comment": "获得快递公司列表",
+    "url": "/trade/delivery/express/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/delivery.js",
+    "methodName": "getDeliveryPickUpStoreList",
+    "comment": "获得自提门店列表",
+    "url": "/trade/delivery/pick-up-store/list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/delivery.js",
+    "methodName": "getDeliveryPickUpStore",
+    "comment": "获得自提门店",
+    "url": "/trade/delivery/pick-up-store/get",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/trade/order/settlement?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/trade/order/settlement?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/trade/order/settlement?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "for",
+    "comment": "解决 SpringMVC 接受 List<Item> 参数的问题",
+    "url": "/trade/order/settlement?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "if",
+    "comment": "if",
+    "url": "/trade/order/settlement?${queryString}",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "getSettlementProduct",
+    "comment": "获得商品结算信息",
+    "url": "/trade/order/settlement-product",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showError",
+    "comment": "showError",
+    "url": "/trade/order/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "createOrder",
+    "comment": "创建订单",
+    "url": "/trade/order/create",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "getOrderDetail",
+    "comment": "获得订单详细：sync 是可选参数",
+    "url": "/trade/order/get-detail",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "getOrderPage",
+    "comment": "订单列表",
+    "url": "/trade/order/page",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/receive",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "receiveOrder",
+    "comment": "确认收货",
+    "url": "/trade/order/receive",
+    "httpMethod": "PUT"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "cancelOrder",
+    "comment": "取消订单",
+    "url": "/trade/order/cancel",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "deleteOrder",
+    "comment": "删除订单",
+    "url": "/trade/order/delete",
+    "httpMethod": "DELETE"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "getOrderExpressTrackList",
+    "comment": "获得交易订单的物流轨迹",
+    "url": "/trade/order/get-express-track-list",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "getOrderCount",
+    "comment": "获得交易订单数量",
+    "url": "/trade/order/get-count",
+    "httpMethod": "GET"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "showLoading",
+    "comment": "showLoading",
+    "url": "/trade/order/item/create-comment",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "auth",
+    "comment": "auth",
+    "url": "/trade/order/item/create-comment",
+    "httpMethod": "POST"
+  },
+  {
+    "file": "sheep/api/trade/order.js",
+    "methodName": "createOrderItemComment",
+    "comment": "创建单个评论",
+    "url": "/trade/order/item/create-comment",
+    "httpMethod": "POST"
+  }
+]

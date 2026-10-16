@@ -1,0 +1,8 @@
+{
+  "name": "我的宠物商城",
+  "description": "我的宠物商城运营后台：商品、订单、会员与营销管理",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

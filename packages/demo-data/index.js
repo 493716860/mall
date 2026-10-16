@@ -1,0 +1,620 @@
+export const categories = [
+  { id: 1, name: '宠物主粮', parentId: 0, picUrl: '/demo/food.svg', sort: 1, status: 0 },
+  { id: 2, name: '宠物零食', parentId: 0, picUrl: '/demo/food.svg', sort: 2, status: 0 },
+  { id: 3, name: '宠物玩具', parentId: 0, picUrl: '/demo/toy.svg', sort: 3, status: 0 },
+  { id: 4, name: '洗护护理', parentId: 0, picUrl: '/demo/care.svg', sort: 4, status: 0 }
+]
+
+export const brands = [
+  { id: 1, name: '宠爱生活', picUrl: '/demo/care.svg', sort: 1, status: 0 },
+  { id: 2, name: '萌宠滋养', picUrl: '/demo/food.svg', sort: 2, status: 0 }
+]
+
+export const products = [
+  {
+    id: 101,
+    name: '益生菌全价无谷猫粮 2kg',
+    categoryId: 1,
+    brandId: 2,
+    keyword: '猫粮,全价,无谷,益生菌',
+    unit: 2,
+    picUrl: '/demo/food.svg',
+    sliderPicUrls: ['/demo/food.svg'],
+    introduction: '呵护肠胃健康，多重鲜肉营养',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 1,
+    price: 12900,
+    marketPrice: 15900,
+    costPrice: 7000,
+    stock: 150,
+    salesCount: 520,
+    status: 1,
+    createTime: '2026-10-10 10:00:00',
+    description: '<p>优质高蛋白配方，无谷低敏，富含益生菌，呵护爱宠消化吸收。</p>',
+    skus: [
+      {
+        id: 1001,
+        spuId: 101,
+        name: '2kg 原味标准装',
+        picUrl: '/demo/food.svg',
+        price: 12900,
+        marketPrice: 15900,
+        costPrice: 7000,
+        stock: 150,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准装' }]
+      }
+    ]
+  },
+  {
+    id: 102,
+    name: '天然深海鱼油犬粮 2.5kg',
+    categoryId: 1,
+    brandId: 2,
+    keyword: '犬粮,鱼油,美毛',
+    unit: 2,
+    picUrl: '/demo/food.svg',
+    sliderPicUrls: ['/demo/food.svg'],
+    introduction: '天然深海鱼油提取，靓丽毛发配方',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 2,
+    price: 14800,
+    marketPrice: 18800,
+    costPrice: 8500,
+    stock: 95,
+    salesCount: 310,
+    status: 1,
+    createTime: '2026-10-11 11:00:00',
+    description: '<p>精选天然深海三文鱼，Omega-3含量高，助力爱犬皮肤屏障健康。</p>',
+    skus: [
+      {
+        id: 1002,
+        spuId: 102,
+        name: '2.5kg 标准装',
+        picUrl: '/demo/food.svg',
+        price: 14800,
+        marketPrice: 18800,
+        costPrice: 8500,
+        stock: 95,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准装' }]
+      }
+    ]
+  },
+  {
+    id: 103,
+    name: '冻干鲜肉鸡肉粒猫咪零食 100g',
+    categoryId: 2,
+    brandId: 1,
+    keyword: '猫零食,冻干,纯肉',
+    unit: 3,
+    picUrl: '/demo/food.svg',
+    sliderPicUrls: ['/demo/food.svg'],
+    introduction: '原切原肉FD航空冻干技术，鲜香酥脆',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 3,
+    price: 2990,
+    marketPrice: 3990,
+    costPrice: 1200,
+    stock: 320,
+    salesCount: 880,
+    status: 1,
+    createTime: '2026-10-12 09:30:00',
+    description: '<p>100%纯鸡肉真空冻干，复水即食，挑食爱宠必备。</p>',
+    skus: [
+      {
+        id: 1003,
+        spuId: 103,
+        name: '100g 原味',
+        picUrl: '/demo/food.svg',
+        price: 2990,
+        marketPrice: 3990,
+        costPrice: 1200,
+        stock: 320,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '100g' }]
+      }
+    ]
+  },
+  {
+    id: 104,
+    name: '洁齿牛皮咀嚼骨磨牙棒 5支装',
+    categoryId: 2,
+    brandId: 1,
+    keyword: '狗零食,磨牙棒,洁齿骨',
+    unit: 1,
+    picUrl: '/demo/food.svg',
+    sliderPicUrls: ['/demo/food.svg'],
+    introduction: '耐咬高弹，深度清洁齿垢清新口气',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 4,
+    price: 1990,
+    marketPrice: 2990,
+    costPrice: 800,
+    stock: 410,
+    salesCount: 650,
+    status: 1,
+    createTime: '2026-10-12 14:00:00',
+    description: '<p>天然牛皮压制，耐嚼耐玩，有效清除牙菌斑与结石。</p>',
+    skus: [
+      {
+        id: 1004,
+        spuId: 104,
+        name: '5支装',
+        picUrl: '/demo/food.svg',
+        price: 1990,
+        marketPrice: 2990,
+        costPrice: 800,
+        stock: 410,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '5支装' }]
+      }
+    ]
+  },
+  {
+    id: 105,
+    name: '剑麻耐磨猫抓板薄荷转盘',
+    categoryId: 3,
+    brandId: 1,
+    keyword: '猫玩具,猫抓板,剑麻',
+    unit: 1,
+    picUrl: '/demo/toy.svg',
+    sliderPicUrls: ['/demo/toy.svg'],
+    introduction: '天然植物剑麻缠绕，磨爪解闷多合一',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 5,
+    price: 3900,
+    marketPrice: 4900,
+    costPrice: 1800,
+    stock: 120,
+    salesCount: 430,
+    status: 1,
+    createTime: '2026-10-13 10:00:00',
+    description: '<p>加厚密度板底座，坚固耐抓不掉屑，内置木天蓼小球。</p>',
+    skus: [
+      {
+        id: 1005,
+        spuId: 105,
+        name: '圆形经典款',
+        picUrl: '/demo/toy.svg',
+        price: 3900,
+        marketPrice: 4900,
+        costPrice: 1800,
+        stock: 120,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准款' }]
+      }
+    ]
+  },
+  {
+    id: 106,
+    name: '耐咬弹力橡胶发声训练飞盘',
+    categoryId: 3,
+    brandId: 1,
+    keyword: '狗玩具,飞盘,耐咬',
+    unit: 1,
+    picUrl: '/demo/toy.svg',
+    sliderPicUrls: ['/demo/toy.svg'],
+    introduction: '环保无毒食品级橡胶，户外互动神器',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 6,
+    price: 2500,
+    marketPrice: 3500,
+    costPrice: 1000,
+    stock: 180,
+    salesCount: 260,
+    status: 1,
+    createTime: '2026-10-13 11:20:00',
+    description: '<p>浮水防滑设计，高回弹不伤牙，适合各种体型狗狗巡回互动。</p>',
+    skus: [
+      {
+        id: 1006,
+        spuId: 106,
+        name: '亮黄色',
+        picUrl: '/demo/toy.svg',
+        price: 2500,
+        marketPrice: 3500,
+        costPrice: 1000,
+        stock: 180,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准款' }]
+      }
+    ]
+  },
+  {
+    id: 107,
+    name: '抑菌除味宠物免洗SPA手套 6只装',
+    categoryId: 4,
+    brandId: 1,
+    keyword: '宠物洗护,免洗手套,除臭',
+    unit: 1,
+    picUrl: '/demo/care.svg',
+    sliderPicUrls: ['/demo/care.svg'],
+    introduction: '天然植物精油提取，一擦即净无需过水',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 7,
+    price: 1690,
+    marketPrice: 2590,
+    costPrice: 600,
+    stock: 260,
+    salesCount: 710,
+    status: 1,
+    createTime: '2026-10-13 15:40:00',
+    description: '<p>免水洗配方，加厚珍珠纹无纺布，快速去除异味与灰尘浮毛。</p>',
+    skus: [
+      {
+        id: 1007,
+        spuId: 107,
+        name: '6只/袋',
+        picUrl: '/demo/care.svg',
+        price: 1690,
+        marketPrice: 2590,
+        costPrice: 600,
+        stock: 260,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '6只/袋' }]
+      }
+    ]
+  },
+  {
+    id: 108,
+    name: '植物香氛温和宠物沐浴露 500ml',
+    categoryId: 4,
+    brandId: 1,
+    keyword: '宠物沐浴露,低敏,顺毛',
+    unit: 1,
+    picUrl: '/demo/care.svg',
+    sliderPicUrls: ['/demo/care.svg'],
+    introduction: '弱酸温和亲肤配方，持久留香抑菌止痒',
+    deliveryTypes: [1],
+    deliveryTemplateId: 1,
+    specType: true,
+    subCommissionType: false,
+    sort: 8,
+    price: 4900,
+    marketPrice: 6800,
+    costPrice: 2200,
+    stock: 85,
+    salesCount: 190,
+    status: 1,
+    createTime: '2026-10-14 09:10:00',
+    description: '<p>添加燕麦精华与霍霍巴油，深层滋润毛囊，毛发柔顺光泽。</p>',
+    skus: [
+      {
+        id: 1008,
+        spuId: 108,
+        name: '500ml 润毛配方',
+        picUrl: '/demo/care.svg',
+        price: 4900,
+        marketPrice: 6800,
+        costPrice: 2200,
+        stock: 85,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '500ml' }]
+      }
+    ]
+  }
+]
+
+export const members = [
+  {
+    id: 1,
+    nickname: '萌宠达人小林',
+    mobile: '13800138000',
+    avatar: '/demo/avatar.svg',
+    levelId: 1,
+    groupId: 1,
+    tagIds: [1],
+    status: 0,
+    point: 850,
+    experience: 240,
+    balance: 5000,
+    createTime: '2026-10-10 12:00:00',
+    registerTerminal: 10,
+    mark: '优质客户，家里两只布偶猫'
+  },
+  {
+    id: 2,
+    nickname: '布偶猫铲屎官',
+    mobile: '13912345678',
+    avatar: '/demo/avatar.svg',
+    levelId: 1,
+    groupId: 1,
+    tagIds: [1],
+    status: 0,
+    point: 120,
+    experience: 80,
+    balance: 1000,
+    createTime: '2026-10-12 15:30:00',
+    registerTerminal: 20,
+    mark: '新注册会员，喜好冻干零食'
+  },
+  {
+    id: 3,
+    nickname: '柴犬阿黄',
+    mobile: '13766668888',
+    avatar: '/demo/avatar.svg',
+    levelId: 1,
+    groupId: 1,
+    tagIds: [1],
+    status: 0,
+    point: 320,
+    experience: 150,
+    balance: 2500,
+    createTime: '2026-10-13 18:20:00',
+    registerTerminal: 10,
+    mark: '定期采购天然犬粮'
+  }
+]
+
+export const orders = [
+  {
+    id: 1,
+    no: 'O202610140001',
+    type: 0,
+    terminal: 10,
+    userId: 1,
+    user: { id: 1, nickname: '萌宠达人小林', mobile: '13800138000' },
+    status: 10,
+    payPrice: 12900,
+    totalPrice: 12900,
+    deliveryPrice: 0,
+    deliveryType: 1,
+    deliveryTemplateId: 1,
+    payStatus: true,
+    payTime: '2026-10-14 09:35:00',
+    payChannelCode: 'wx_lite',
+    receiverName: '小林',
+    receiverMobile: '13800138000',
+    receiverAreaId: 310104,
+    receiverAreaName: '上海市上海市徐汇区',
+    receiverDetailAddress: '漕溪北路88号302室',
+    items: [
+      {
+        id: 1,
+        orderId: 1,
+        spuId: 101,
+        spuName: '益生菌全价无谷猫粮 2kg',
+        skuId: 1001,
+        picUrl: '/demo/food.svg',
+        count: 1,
+        price: 12900,
+        payPrice: 12900,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准装' }]
+      }
+    ],
+    createTime: '2026-10-14 09:30:00',
+    logs: [
+      { content: '买家创建订单', createTime: '2026-10-14 09:30:00', userType: 1 },
+      { content: '买家微信支付成功', createTime: '2026-10-14 09:35:00', userType: 1 }
+    ]
+  },
+  {
+    id: 2,
+    no: 'O202610140002',
+    type: 0,
+    terminal: 10,
+    userId: 2,
+    user: { id: 2, nickname: '布偶猫铲屎官', mobile: '13912345678' },
+    status: 20,
+    payPrice: 2990,
+    totalPrice: 2990,
+    deliveryPrice: 0,
+    deliveryType: 1,
+    deliveryTemplateId: 1,
+    payStatus: true,
+    payTime: '2026-10-14 08:20:00',
+    payChannelCode: 'wx_lite',
+    deliveryTime: '2026-10-14 09:10:00',
+    logisticsNo: 'SF1029384756',
+    logisticsCompany: '顺丰速运',
+    receiverName: '陈女士',
+    receiverMobile: '13912345678',
+    receiverAreaId: 310104,
+    receiverAreaName: '上海市上海市徐汇区',
+    receiverDetailAddress: '宜山路400号',
+    items: [
+      {
+        id: 2,
+        orderId: 2,
+        spuId: 103,
+        spuName: '冻干鲜肉鸡肉粒猫咪零食 100g',
+        skuId: 1003,
+        picUrl: '/demo/food.svg',
+        count: 1,
+        price: 2990,
+        payPrice: 2990,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '100g' }]
+      }
+    ],
+    createTime: '2026-10-14 08:15:00',
+    logs: [
+      { content: '买家创建订单', createTime: '2026-10-14 08:15:00', userType: 1 },
+      { content: '买家微信支付成功', createTime: '2026-10-14 08:20:00', userType: 1 },
+      { content: '商家已发货，顺丰单号: SF1029384756', createTime: '2026-10-14 09:10:00', userType: 2 }
+    ]
+  },
+  {
+    id: 3,
+    no: 'O202610130003',
+    type: 0,
+    terminal: 20,
+    userId: 3,
+    user: { id: 3, nickname: '柴犬阿黄', mobile: '13766668888' },
+    status: 30,
+    payPrice: 14800,
+    totalPrice: 14800,
+    deliveryPrice: 0,
+    deliveryType: 1,
+    deliveryTemplateId: 1,
+    payStatus: true,
+    payTime: '2026-10-13 14:10:00',
+    payChannelCode: 'alipay_wap',
+    deliveryTime: '2026-10-13 16:00:00',
+    receiveTime: '2026-10-14 11:00:00',
+    receiverName: '王先生',
+    receiverMobile: '13766668888',
+    receiverAreaId: 310104,
+    receiverAreaName: '上海市上海市徐汇区',
+    receiverDetailAddress: '淮海中路1200号',
+    items: [
+      {
+        id: 3,
+        orderId: 3,
+        spuId: 102,
+        spuName: '天然深海鱼油犬粮 2.5kg',
+        skuId: 1002,
+        picUrl: '/demo/food.svg',
+        count: 1,
+        price: 14800,
+        payPrice: 14800,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '2.5kg 标准装' }]
+      }
+    ],
+    createTime: '2026-10-13 14:00:00',
+    logs: [
+      { content: '买家创建订单', createTime: '2026-10-13 14:00:00', userType: 1 },
+      { content: '买家支付宝支付成功', createTime: '2026-10-13 14:10:00', userType: 1 },
+      { content: '商家已发货', createTime: '2026-10-13 16:00:00', userType: 2 },
+      { content: '买家已确认收货', createTime: '2026-10-14 11:00:00', userType: 1 }
+    ]
+  },
+  {
+    id: 4,
+    no: 'O202610140004',
+    type: 0,
+    terminal: 10,
+    userId: 1,
+    user: { id: 1, nickname: '萌宠达人小林', mobile: '13800138000' },
+    status: 0,
+    payPrice: 3900,
+    totalPrice: 3900,
+    deliveryPrice: 0,
+    deliveryType: 1,
+    deliveryTemplateId: 1,
+    payStatus: false,
+    receiverName: '小林',
+    receiverMobile: '13800138000',
+    receiverAreaId: 310104,
+    receiverAreaName: '上海市上海市徐汇区',
+    receiverDetailAddress: '漕溪北路88号302室',
+    items: [
+      {
+        id: 4,
+        orderId: 4,
+        spuId: 105,
+        spuName: '剑麻耐磨猫抓板薄荷转盘',
+        skuId: 1005,
+        picUrl: '/demo/toy.svg',
+        count: 1,
+        price: 3900,
+        payPrice: 3900,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '标准款' }]
+      }
+    ],
+    createTime: '2026-10-14 11:20:00',
+    logs: [{ content: '买家创建订单', createTime: '2026-10-14 11:20:00', userType: 1 }]
+  },
+  {
+    id: 5,
+    no: 'O202610120005',
+    type: 0,
+    terminal: 10,
+    userId: 2,
+    user: { id: 2, nickname: '布偶猫铲屎官', mobile: '13912345678' },
+    status: 10,
+    payPrice: 1690,
+    totalPrice: 1690,
+    deliveryPrice: 0,
+    deliveryType: 1,
+    deliveryTemplateId: 1,
+    payStatus: true,
+    payTime: '2026-10-12 18:05:00',
+    payChannelCode: 'wx_lite',
+    receiverName: '陈女士',
+    receiverMobile: '13912345678',
+    receiverAreaId: 310104,
+    receiverAreaName: '上海市上海市徐汇区',
+    receiverDetailAddress: '宜山路400号',
+    items: [
+      {
+        id: 5,
+        orderId: 5,
+        spuId: 107,
+        spuName: '抑菌除味宠物免洗SPA手套',
+        skuId: 1007,
+        picUrl: '/demo/care.svg',
+        count: 1,
+        price: 1690,
+        payPrice: 1690,
+        properties: [{ propertyId: 1, propertyName: '规格', valueId: 1, valueName: '6只/袋' }]
+      }
+    ],
+    createTime: '2026-10-12 18:00:00',
+    logs: [
+      { content: '买家创建订单', createTime: '2026-10-12 18:00:00', userType: 1 },
+      { content: '买家微信支付成功', createTime: '2026-10-12 18:05:00', userType: 1 }
+    ]
+  }
+]
+
+export const couponTemplates = [
+  {
+    id: 1,
+    name: '新人专享宠粮券',
+    status: 0,
+    discountType: 1,
+    discountPercent: 0,
+    discountPrice: 2000,
+    usePrice: 9900,
+    validityType: 2,
+    validDays: 7,
+    takeLimitCount: 1,
+    totalCount: 500,
+    takeCount: 88,
+    usedCount: 24,
+    productScope: 1,
+    createTime: '2026-10-14 09:00:00'
+  },
+  {
+    id: 2,
+    name: '全场通用9折券',
+    status: 0,
+    discountType: 2,
+    discountPercent: 90,
+    discountPrice: 0,
+    usePrice: 19900,
+    validityType: 2,
+    validDays: 14,
+    takeLimitCount: 1,
+    totalCount: 300,
+    takeCount: 65,
+    usedCount: 19,
+    productScope: 1,
+    createTime: '2026-10-14 09:00:00'
+  }
+]
+
+export const tradeConfig = {
+  id: 1,
+  deliveryExpressFreeEnabled: true,
+  deliveryExpressFreePrice: 9900,
+  deliveryPickUpEnabled: true,
+  payTimeoutMinute: 30,
+  deliveryTimeoutDay: 7,
+  confirmTimeoutDay: 7,
+  commentTimeoutDay: 7
+}

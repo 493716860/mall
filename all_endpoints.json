@@ -1,0 +1,4389 @@
+{
+  "admin": [
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/infra/file/page",
+      "rawUrl": "/infra/file/page",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/infra/file/delete",
+      "rawUrl": "/infra/file/delete?id=",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/infra/file/delete-list",
+      "rawUrl": "/infra/file/delete-list",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/infra/file/presigned-url",
+      "rawUrl": "/infra/file/presigned-url",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/infra/file/create",
+      "rawUrl": "/infra/file/create",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "UPLOAD",
+      "url": "/infra/file/upload",
+      "rawUrl": "/infra/file/upload",
+      "files": [
+        "admin/src/api/infra/file/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/login",
+      "rawUrl": "/system/auth/login",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/register",
+      "rawUrl": "/system/auth/register",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/tenant/get-id-by-name",
+      "rawUrl": "/system/tenant/get-id-by-name?name=",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/tenant/get-by-website",
+      "rawUrl": "/system/tenant/get-by-website?website=",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/logout",
+      "rawUrl": "/system/auth/logout",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/auth/get-permission-info",
+      "rawUrl": "/system/auth/get-permission-info",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/send-sms-code",
+      "rawUrl": "/system/auth/send-sms-code",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/sms-login",
+      "rawUrl": "/system/auth/sms-login",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/social-login",
+      "rawUrl": "/system/auth/social-login",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/auth/social-auth-redirect",
+      "rawUrl": "/system/auth/social-auth-redirect?type=",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "system/captcha/get",
+      "rawUrl": "system/captcha/get",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "system/captcha/check",
+      "rawUrl": "system/captcha/check",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/auth/reset-password",
+      "rawUrl": "/system/auth/reset-password",
+      "files": [
+        "admin/src/api/login/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/brand/create",
+      "rawUrl": "/product/brand/create",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/brand/update",
+      "rawUrl": "/product/brand/update",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/product/brand/delete",
+      "rawUrl": "/product/brand/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/brand/get",
+      "rawUrl": "/product/brand/get?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/brand/page",
+      "rawUrl": "/product/brand/page",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/brand/list-all-simple",
+      "rawUrl": "/product/brand/list-all-simple",
+      "files": [
+        "admin/src/api/mall/product/brand.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/category/create",
+      "rawUrl": "/product/category/create",
+      "files": [
+        "admin/src/api/mall/product/category.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/category/update",
+      "rawUrl": "/product/category/update",
+      "files": [
+        "admin/src/api/mall/product/category.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/product/category/delete",
+      "rawUrl": "/product/category/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/category.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/category/get",
+      "rawUrl": "/product/category/get?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/category.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/category/list",
+      "rawUrl": "/product/category/list",
+      "files": [
+        "admin/src/api/mall/product/category.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/comment/page",
+      "rawUrl": "/product/comment/page",
+      "files": [
+        "admin/src/api/mall/product/comment.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/comment/get",
+      "rawUrl": "/product/comment/get?id=",
+      "files": [
+        "admin/src/api/mall/product/comment.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/comment/create",
+      "rawUrl": "/product/comment/create",
+      "files": [
+        "admin/src/api/mall/product/comment.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/comment/update-visible",
+      "rawUrl": "/product/comment/update-visible",
+      "files": [
+        "admin/src/api/mall/product/comment.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/comment/reply",
+      "rawUrl": "/product/comment/reply",
+      "files": [
+        "admin/src/api/mall/product/comment.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/browse-history/page",
+      "rawUrl": "/product/browse-history/page",
+      "files": [
+        "admin/src/api/mall/product/history.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/property/create",
+      "rawUrl": "/product/property/create",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/property/update",
+      "rawUrl": "/product/property/update",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/product/property/delete",
+      "rawUrl": "/product/property/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/get",
+      "rawUrl": "/product/property/get?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/page",
+      "rawUrl": "/product/property/page",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/simple-list",
+      "rawUrl": "/product/property/simple-list",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/value/page",
+      "rawUrl": "/product/property/value/page",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/value/get",
+      "rawUrl": "/product/property/value/get?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/property/value/create",
+      "rawUrl": "/product/property/value/create",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/property/value/update",
+      "rawUrl": "/product/property/value/update",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/product/property/value/delete",
+      "rawUrl": "/product/property/value/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/property/value/simple-list",
+      "rawUrl": "/product/property/value/simple-list",
+      "files": [
+        "admin/src/api/mall/product/property.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/spu/page",
+      "rawUrl": "/product/spu/page",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/spu/get-count",
+      "rawUrl": "/product/spu/get-count",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/product/spu/create",
+      "rawUrl": "/product/spu/create",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/spu/update",
+      "rawUrl": "/product/spu/update",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/product/spu/update-status",
+      "rawUrl": "/product/spu/update-status",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/spu/get-detail",
+      "rawUrl": "/product/spu/get-detail?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/spu/list",
+      "rawUrl": "/product/spu/list?spuIds=${ids}",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/product/spu/delete",
+      "rawUrl": "/product/spu/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/product/spu/export-excel",
+      "rawUrl": "/product/spu/export-excel",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/product/spu/list-all-simple",
+      "rawUrl": "/product/spu/list-all-simple",
+      "files": [
+        "admin/src/api/mall/product/spu.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/article/page",
+      "rawUrl": "/promotion/article/page",
+      "files": [
+        "admin/src/api/mall/promotion/article/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/article/get",
+      "rawUrl": "/promotion/article/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/article/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/article/create",
+      "rawUrl": "/promotion/article/create",
+      "files": [
+        "admin/src/api/mall/promotion/article/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/article/update",
+      "rawUrl": "/promotion/article/update",
+      "files": [
+        "admin/src/api/mall/promotion/article/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/article/delete",
+      "rawUrl": "/promotion/article/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/article/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/article-category/page",
+      "rawUrl": "/promotion/article-category/page",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/article-category/list-all-simple",
+      "rawUrl": "/promotion/article-category/list-all-simple",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/article-category/get",
+      "rawUrl": "/promotion/article-category/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/article-category/create",
+      "rawUrl": "/promotion/article-category/create",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/article-category/update",
+      "rawUrl": "/promotion/article-category/update",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/article-category/delete",
+      "rawUrl": "/promotion/article-category/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/articleCategory/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/banner/page",
+      "rawUrl": "/promotion/banner/page",
+      "files": [
+        "admin/src/api/mall/promotion/banner/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/banner/get",
+      "rawUrl": "/promotion/banner/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/banner/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/banner/create",
+      "rawUrl": "/promotion/banner/create",
+      "files": [
+        "admin/src/api/mall/promotion/banner/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/banner/update",
+      "rawUrl": "/promotion/banner/update",
+      "files": [
+        "admin/src/api/mall/promotion/banner/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/banner/delete",
+      "rawUrl": "/promotion/banner/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/banner/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/bargain-activity/page",
+      "rawUrl": "/promotion/bargain-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/bargain-activity/get",
+      "rawUrl": "/promotion/bargain-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/bargain-activity/create",
+      "rawUrl": "/promotion/bargain-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/bargain-activity/update",
+      "rawUrl": "/promotion/bargain-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/bargain-activity/close",
+      "rawUrl": "/promotion/bargain-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/bargain-activity/delete",
+      "rawUrl": "/promotion/bargain-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/bargain-help/page",
+      "rawUrl": "/promotion/bargain-help/page",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainHelp.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/bargain-record/page",
+      "rawUrl": "/promotion/bargain-record/page",
+      "files": [
+        "admin/src/api/mall/promotion/bargain/bargainRecord.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/page",
+      "rawUrl": "/promotion/combination-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/get",
+      "rawUrl": "/promotion/combination-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/list-by-ids",
+      "rawUrl": "/promotion/combination-activity/list-by-ids?ids=${ids}",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/combination-activity/create",
+      "rawUrl": "/promotion/combination-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/combination-activity/update",
+      "rawUrl": "/promotion/combination-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/combination-activity/close",
+      "rawUrl": "/promotion/combination-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/combination-activity/delete",
+      "rawUrl": "/promotion/combination-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/page",
+      "rawUrl": "/promotion/combination-record/page",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationRecord.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/get-summary",
+      "rawUrl": "/promotion/combination-record/get-summary",
+      "files": [
+        "admin/src/api/mall/promotion/combination/combinationRecord.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/coupon/delete",
+      "rawUrl": "/promotion/coupon/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/coupon.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/coupon/page",
+      "rawUrl": "/promotion/coupon/page",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/coupon.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/coupon/send",
+      "rawUrl": "/promotion/coupon/send",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/coupon.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/coupon-template/create",
+      "rawUrl": "/promotion/coupon-template/create",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/coupon-template/update",
+      "rawUrl": "/promotion/coupon-template/update",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/coupon-template/update-status",
+      "rawUrl": "/promotion/coupon-template/update-status",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/coupon-template/delete",
+      "rawUrl": "/promotion/coupon-template/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/get",
+      "rawUrl": "/promotion/coupon-template/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/page",
+      "rawUrl": "/promotion/coupon-template/page",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/list",
+      "rawUrl": "/promotion/coupon-template/list?ids=${ids}",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/export-excel",
+      "rawUrl": "/promotion/coupon-template/export-excel",
+      "files": [
+        "admin/src/api/mall/promotion/coupon/couponTemplate.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/discount-activity/page",
+      "rawUrl": "/promotion/discount-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/discount-activity/get",
+      "rawUrl": "/promotion/discount-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/discount-activity/create",
+      "rawUrl": "/promotion/discount-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/discount-activity/update",
+      "rawUrl": "/promotion/discount-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/discount-activity/close",
+      "rawUrl": "/promotion/discount-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/discount-activity/delete",
+      "rawUrl": "/promotion/discount-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/discount/discountActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-page/page",
+      "rawUrl": "/promotion/diy-page/page",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-page/get",
+      "rawUrl": "/promotion/diy-page/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/diy-page/create",
+      "rawUrl": "/promotion/diy-page/create",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/diy-page/update",
+      "rawUrl": "/promotion/diy-page/update",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/diy-page/delete",
+      "rawUrl": "/promotion/diy-page/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-page/get-property",
+      "rawUrl": "/promotion/diy-page/get-property?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/diy-page/update-property",
+      "rawUrl": "/promotion/diy-page/update-property",
+      "files": [
+        "admin/src/api/mall/promotion/diy/page.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-template/page",
+      "rawUrl": "/promotion/diy-template/page",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-template/get",
+      "rawUrl": "/promotion/diy-template/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/diy-template/create",
+      "rawUrl": "/promotion/diy-template/create",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/diy-template/update",
+      "rawUrl": "/promotion/diy-template/update",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/diy-template/delete",
+      "rawUrl": "/promotion/diy-template/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/diy-template/use",
+      "rawUrl": "/promotion/diy-template/use?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/diy-template/get-property",
+      "rawUrl": "/promotion/diy-template/get-property?id=",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/diy-template/update-property",
+      "rawUrl": "/promotion/diy-template/update-property",
+      "files": [
+        "admin/src/api/mall/promotion/diy/template.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/kefu-conversation/list",
+      "rawUrl": "/promotion/kefu-conversation/list",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/conversation/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/kefu-conversation/get",
+      "rawUrl": "/promotion/kefu-conversation/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/conversation/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/kefu-conversation/update-conversation-pinned",
+      "rawUrl": "/promotion/kefu-conversation/update-conversation-pinned",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/conversation/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/kefu-conversation/delete",
+      "rawUrl": "/promotion/kefu-conversation/delete?id=${id}",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/conversation/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/kefu-message/send",
+      "rawUrl": "/promotion/kefu-message/send",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/message/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/kefu-message/update-read-status",
+      "rawUrl": "/promotion/kefu-message/update-read-status?conversationId=",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/message/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/kefu-message/list",
+      "rawUrl": "/promotion/kefu-message/list",
+      "files": [
+        "admin/src/api/mall/promotion/kefu/message/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/point-activity/page",
+      "rawUrl": "/promotion/point-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/point-activity/get",
+      "rawUrl": "/promotion/point-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/point-activity/list-by-ids",
+      "rawUrl": "/promotion/point-activity/list-by-ids?ids=${ids}",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/point-activity/create",
+      "rawUrl": "/promotion/point-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/point-activity/update",
+      "rawUrl": "/promotion/point-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/point-activity/delete",
+      "rawUrl": "/promotion/point-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/point-activity/close",
+      "rawUrl": "/promotion/point-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/point/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/reward-activity/create",
+      "rawUrl": "/promotion/reward-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/reward-activity/update",
+      "rawUrl": "/promotion/reward-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/reward-activity/page",
+      "rawUrl": "/promotion/reward-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/reward-activity/get",
+      "rawUrl": "/promotion/reward-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/reward-activity/delete",
+      "rawUrl": "/promotion/reward-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/reward-activity/close",
+      "rawUrl": "/promotion/reward-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/reward/rewardActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-activity/page",
+      "rawUrl": "/promotion/seckill-activity/page",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-activity/list-by-ids",
+      "rawUrl": "/promotion/seckill-activity/list-by-ids?ids=${ids}",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-activity/get",
+      "rawUrl": "/promotion/seckill-activity/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/seckill-activity/create",
+      "rawUrl": "/promotion/seckill-activity/create",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/seckill-activity/update",
+      "rawUrl": "/promotion/seckill-activity/update",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/seckill-activity/close",
+      "rawUrl": "/promotion/seckill-activity/close?id=",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/seckill-activity/delete",
+      "rawUrl": "/promotion/seckill-activity/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillActivity.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-config/page",
+      "rawUrl": "/promotion/seckill-config/page",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-config/list",
+      "rawUrl": "/promotion/seckill-config/list",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/promotion/seckill-config/get",
+      "rawUrl": "/promotion/seckill-config/get?id=",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/promotion/seckill-config/create",
+      "rawUrl": "/promotion/seckill-config/create",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/seckill-config/update",
+      "rawUrl": "/promotion/seckill-config/update",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/promotion/seckill-config/delete",
+      "rawUrl": "/promotion/seckill-config/delete?id=",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/promotion/seckill-config/update-status",
+      "rawUrl": "/promotion/seckill-config/update-status",
+      "files": [
+        "admin/src/api/mall/promotion/seckill/seckillConfig.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/summary",
+      "rawUrl": "/statistics/member/summary",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/analyse",
+      "rawUrl": "/statistics/member/analyse",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/area-statistics-list",
+      "rawUrl": "/statistics/member/area-statistics-list",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/sex-statistics-list",
+      "rawUrl": "/statistics/member/sex-statistics-list",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/terminal-statistics-list",
+      "rawUrl": "/statistics/member/terminal-statistics-list",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/member/register-count-list",
+      "rawUrl": "/statistics/member/register-count-list",
+      "files": [
+        "admin/src/api/mall/statistics/member.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/pay/summary",
+      "rawUrl": "/statistics/pay/summary",
+      "files": [
+        "admin/src/api/mall/statistics/pay.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/product/list",
+      "rawUrl": "/statistics/product/list",
+      "files": [
+        "admin/src/api/mall/statistics/product.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/statistics/product/export-excel",
+      "rawUrl": "/statistics/product/export-excel",
+      "files": [
+        "admin/src/api/mall/statistics/product.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/product/rank-page",
+      "rawUrl": "/statistics/product/rank-page",
+      "files": [
+        "admin/src/api/mall/statistics/product.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/trade/list",
+      "rawUrl": "/statistics/trade/list",
+      "files": [
+        "admin/src/api/mall/statistics/trade.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/statistics/trade/export-excel",
+      "rawUrl": "/statistics/trade/export-excel",
+      "files": [
+        "admin/src/api/mall/statistics/trade.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/statistics/trade/order-count",
+      "rawUrl": "/statistics/trade/order-count",
+      "files": [
+        "admin/src/api/mall/statistics/trade.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/after-sale/get-detail",
+      "rawUrl": "/trade/after-sale/get-detail?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/agree",
+      "rawUrl": "/trade/after-sale/agree?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/disagree",
+      "rawUrl": "/trade/after-sale/disagree",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/receive",
+      "rawUrl": "/trade/after-sale/receive?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/refuse",
+      "rawUrl": "/trade/after-sale/refuse?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/refund",
+      "rawUrl": "/trade/after-sale/refund?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/afterSale/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/brokerage-record/page",
+      "rawUrl": "/trade/brokerage-record/page",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/record/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/brokerage-record/get",
+      "rawUrl": "/trade/brokerage-record/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/record/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/trade/brokerage-user/create",
+      "rawUrl": "/trade/brokerage-user/create",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/get",
+      "rawUrl": "/trade/brokerage-user/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-user/update-bind-user",
+      "rawUrl": "/trade/brokerage-user/update-bind-user",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-user/clear-bind-user",
+      "rawUrl": "/trade/brokerage-user/clear-bind-user",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-user/update-brokerage-enable",
+      "rawUrl": "/trade/brokerage-user/update-brokerage-enable",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/brokerage-withdraw/page",
+      "rawUrl": "/trade/brokerage-withdraw/page",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/withdraw/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/brokerage-withdraw/get",
+      "rawUrl": "/trade/brokerage-withdraw/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/withdraw/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-withdraw/approve",
+      "rawUrl": "/trade/brokerage-withdraw/approve?id=",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/withdraw/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-withdraw/reject",
+      "rawUrl": "/trade/brokerage-withdraw/reject",
+      "files": [
+        "admin/src/api/mall/trade/brokerage/withdraw/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/config/get",
+      "rawUrl": "/trade/config/get",
+      "files": [
+        "admin/src/api/mall/trade/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/config/save",
+      "rawUrl": "/trade/config/save",
+      "files": [
+        "admin/src/api/mall/trade/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/express/get",
+      "rawUrl": "/trade/delivery/express/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/express/list-all-simple",
+      "rawUrl": "/trade/delivery/express/list-all-simple",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/trade/delivery/express/create",
+      "rawUrl": "/trade/delivery/express/create",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/delivery/express/update",
+      "rawUrl": "/trade/delivery/express/update",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/trade/delivery/express/delete",
+      "rawUrl": "/trade/delivery/express/delete?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/trade/delivery/express/export-excel",
+      "rawUrl": "/trade/delivery/express/export-excel",
+      "files": [
+        "admin/src/api/mall/trade/delivery/express/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/express-template/get",
+      "rawUrl": "/trade/delivery/express-template/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/expressTemplate/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/express-template/list-all-simple",
+      "rawUrl": "/trade/delivery/express-template/list-all-simple",
+      "files": [
+        "admin/src/api/mall/trade/delivery/expressTemplate/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/trade/delivery/express-template/create",
+      "rawUrl": "/trade/delivery/express-template/create",
+      "files": [
+        "admin/src/api/mall/trade/delivery/expressTemplate/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/delivery/express-template/update",
+      "rawUrl": "/trade/delivery/express-template/update",
+      "files": [
+        "admin/src/api/mall/trade/delivery/expressTemplate/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/trade/delivery/express-template/delete",
+      "rawUrl": "/trade/delivery/express-template/delete?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/expressTemplate/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/pick-up-store/get",
+      "rawUrl": "/trade/delivery/pick-up-store/get?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/delivery/pick-up-store/simple-list",
+      "rawUrl": "/trade/delivery/pick-up-store/simple-list",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/trade/delivery/pick-up-store/create",
+      "rawUrl": "/trade/delivery/pick-up-store/create",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/delivery/pick-up-store/update",
+      "rawUrl": "/trade/delivery/pick-up-store/update",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/trade/delivery/pick-up-store/delete",
+      "rawUrl": "/trade/delivery/pick-up-store/delete?id=",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/trade/delivery/pick-up-store/bind",
+      "rawUrl": "/trade/delivery/pick-up-store/bind",
+      "files": [
+        "admin/src/api/mall/trade/delivery/pickUpStore/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/order/summary",
+      "rawUrl": "/trade/order/summary",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/order/get-detail",
+      "rawUrl": "/trade/order/get-detail?id=",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/delivery",
+      "rawUrl": "/trade/order/delivery",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/update-remark",
+      "rawUrl": "/trade/order/update-remark",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/update-price",
+      "rawUrl": "/trade/order/update-price",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/update-address",
+      "rawUrl": "/trade/order/update-address",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/pick-up-by-id",
+      "rawUrl": "/trade/order/pick-up-by-id?id=${id}",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/trade/order/pick-up-by-verify-code",
+      "rawUrl": "/trade/order/pick-up-by-verify-code",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/trade/order/get-by-pick-up-verify-code",
+      "rawUrl": "/trade/order/get-by-pick-up-verify-code",
+      "files": [
+        "admin/src/api/mall/trade/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/address/list",
+      "rawUrl": "/member/address/list",
+      "files": [
+        "admin/src/api/member/address/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/config/get",
+      "rawUrl": "/member/config/get",
+      "files": [
+        "admin/src/api/member/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/config/save",
+      "rawUrl": "/member/config/save",
+      "files": [
+        "admin/src/api/member/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/experience-record/get",
+      "rawUrl": "/member/experience-record/get?id=",
+      "files": [
+        "admin/src/api/member/experience-record/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/group/page",
+      "rawUrl": "/member/group/page",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/group/get",
+      "rawUrl": "/member/group/get?id=",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/member/group/create",
+      "rawUrl": "/member/group/create",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/group/list-all-simple",
+      "rawUrl": "/member/group/list-all-simple",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/group/update",
+      "rawUrl": "/member/group/update",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/member/group/delete",
+      "rawUrl": "/member/group/delete?id=",
+      "files": [
+        "admin/src/api/member/group/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/level/list",
+      "rawUrl": "/member/level/list",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/level/get",
+      "rawUrl": "/member/level/get?id=",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/level/list-all-simple",
+      "rawUrl": "/member/level/list-all-simple",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/member/level/create",
+      "rawUrl": "/member/level/create",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/level/update",
+      "rawUrl": "/member/level/update",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/member/level/delete",
+      "rawUrl": "/member/level/delete?id=",
+      "files": [
+        "admin/src/api/member/level/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/point/record/page",
+      "rawUrl": "/member/point/record/page",
+      "files": [
+        "admin/src/api/member/point/record/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/sign-in/config/list",
+      "rawUrl": "/member/sign-in/config/list",
+      "files": [
+        "admin/src/api/member/signin/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/sign-in/config/get",
+      "rawUrl": "/member/sign-in/config/get?id=",
+      "files": [
+        "admin/src/api/member/signin/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/member/sign-in/config/create",
+      "rawUrl": "/member/sign-in/config/create",
+      "files": [
+        "admin/src/api/member/signin/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/sign-in/config/update",
+      "rawUrl": "/member/sign-in/config/update",
+      "files": [
+        "admin/src/api/member/signin/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/member/sign-in/config/delete",
+      "rawUrl": "/member/sign-in/config/delete?id=",
+      "files": [
+        "admin/src/api/member/signin/config/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/sign-in/record/page",
+      "rawUrl": "/member/sign-in/record/page",
+      "files": [
+        "admin/src/api/member/signin/record/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/tag/page",
+      "rawUrl": "/member/tag/page",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/tag/get",
+      "rawUrl": "/member/tag/get?id=",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/tag/list-all-simple",
+      "rawUrl": "/member/tag/list-all-simple",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/member/tag/create",
+      "rawUrl": "/member/tag/create",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/tag/update",
+      "rawUrl": "/member/tag/update",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/member/tag/delete",
+      "rawUrl": "/member/tag/delete?id=",
+      "files": [
+        "admin/src/api/member/tag/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/member/user/get",
+      "rawUrl": "/member/user/get?id=",
+      "files": [
+        "admin/src/api/member/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/user/update",
+      "rawUrl": "/member/user/update",
+      "files": [
+        "admin/src/api/member/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/user/update-level",
+      "rawUrl": "/member/user/update-level",
+      "files": [
+        "admin/src/api/member/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/member/user/update-point",
+      "rawUrl": "/member/user/update-point",
+      "files": [
+        "admin/src/api/member/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/app/page",
+      "rawUrl": "/pay/app/page",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/app/get",
+      "rawUrl": "/pay/app/get?id=",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/pay/app/create",
+      "rawUrl": "/pay/app/create",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/pay/app/update",
+      "rawUrl": "/pay/app/update",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/pay/app/update-status",
+      "rawUrl": "/pay/app/update-status",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/pay/app/delete",
+      "rawUrl": "/pay/app/delete?id=",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/app/list",
+      "rawUrl": "/pay/app/list",
+      "files": [
+        "admin/src/api/pay/app/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/order/get",
+      "rawUrl": "/pay/order/get",
+      "files": [
+        "admin/src/api/pay/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/order/get-detail",
+      "rawUrl": "/pay/order/get-detail?id=",
+      "files": [
+        "admin/src/api/pay/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/pay/order/submit",
+      "rawUrl": "/pay/order/submit",
+      "files": [
+        "admin/src/api/pay/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/pay/order/export-excel",
+      "rawUrl": "/pay/order/export-excel",
+      "files": [
+        "admin/src/api/pay/order/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/refund/get",
+      "rawUrl": "/pay/refund/get?id=",
+      "files": [
+        "admin/src/api/pay/refund/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/pay/refund/create",
+      "rawUrl": "/pay/refund/create",
+      "files": [
+        "admin/src/api/pay/refund/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/pay/refund/update",
+      "rawUrl": "/pay/refund/update",
+      "files": [
+        "admin/src/api/pay/refund/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/pay/refund/delete",
+      "rawUrl": "/pay/refund/delete?id=",
+      "files": [
+        "admin/src/api/pay/refund/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/pay/refund/export-excel",
+      "rawUrl": "/pay/refund/export-excel",
+      "files": [
+        "admin/src/api/pay/refund/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/wallet/get",
+      "rawUrl": "/pay/wallet/get",
+      "files": [
+        "admin/src/api/pay/wallet/balance/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/wallet/page",
+      "rawUrl": "/pay/wallet/page",
+      "files": [
+        "admin/src/api/pay/wallet/balance/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/pay/wallet/update-balance",
+      "rawUrl": "/pay/wallet/update-balance",
+      "files": [
+        "admin/src/api/pay/wallet/balance/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/wallet-recharge-package/page",
+      "rawUrl": "/pay/wallet-recharge-package/page",
+      "files": [
+        "admin/src/api/pay/wallet/rechargePackage/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/wallet-recharge-package/get",
+      "rawUrl": "/pay/wallet-recharge-package/get?id=",
+      "files": [
+        "admin/src/api/pay/wallet/rechargePackage/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/pay/wallet-recharge-package/create",
+      "rawUrl": "/pay/wallet-recharge-package/create",
+      "files": [
+        "admin/src/api/pay/wallet/rechargePackage/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/pay/wallet-recharge-package/update",
+      "rawUrl": "/pay/wallet-recharge-package/update",
+      "files": [
+        "admin/src/api/pay/wallet/rechargePackage/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/pay/wallet-recharge-package/delete",
+      "rawUrl": "/pay/wallet-recharge-package/delete?id=",
+      "files": [
+        "admin/src/api/pay/wallet/rechargePackage/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/pay/wallet-transaction/page",
+      "rawUrl": "/pay/wallet-transaction/page",
+      "files": [
+        "admin/src/api/pay/wallet/transaction/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/area/tree",
+      "rawUrl": "/system/area/tree",
+      "files": [
+        "admin/src/api/system/area/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/area/get-by-ip",
+      "rawUrl": "/system/area/get-by-ip?ip=",
+      "files": [
+        "admin/src/api/system/area/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dept/simple-list",
+      "rawUrl": "/system/dept/simple-list",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dept/list",
+      "rawUrl": "/system/dept/list",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dept/get",
+      "rawUrl": "/system/dept/get?id=",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/dept/create",
+      "rawUrl": "/system/dept/create",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/system/dept/update",
+      "rawUrl": "/system/dept/update",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/dept/delete",
+      "rawUrl": "/system/dept/delete?id=",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/dept/delete-list",
+      "rawUrl": "/system/dept/delete-list",
+      "files": [
+        "admin/src/api/system/dept/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dict-data/simple-list",
+      "rawUrl": "/system/dict-data/simple-list",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dict-data/page",
+      "rawUrl": "/system/dict-data/page",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dict-data/get",
+      "rawUrl": "/system/dict-data/get?id=",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/dict-data/type",
+      "rawUrl": "/system/dict-data/type?type=",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/dict-data/create",
+      "rawUrl": "/system/dict-data/create",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/system/dict-data/update",
+      "rawUrl": "/system/dict-data/update",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/dict-data/delete",
+      "rawUrl": "/system/dict-data/delete?id=",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/dict-data/delete-list",
+      "rawUrl": "/system/dict-data/delete-list",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/system/dict-data/export-excel",
+      "rawUrl": "/system/dict-data/export-excel",
+      "files": [
+        "admin/src/api/system/dict/dict.data.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/simple-list",
+      "rawUrl": "/system/user/simple-list",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/get-simple",
+      "rawUrl": "/system/user/get-simple",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/list-by-nickname",
+      "rawUrl": "/system/user/list-by-nickname",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/page",
+      "rawUrl": "/system/user/page",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/list",
+      "rawUrl": "/system/user/list",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "GET",
+      "url": "/system/user/get",
+      "rawUrl": "/system/user/get?id=",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "POST",
+      "url": "/system/user/create",
+      "rawUrl": "/system/user/create",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/system/user/update",
+      "rawUrl": "/system/user/update",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/user/delete",
+      "rawUrl": "/system/user/delete?id=",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DELETE",
+      "url": "/system/user/delete-list",
+      "rawUrl": "/system/user/delete-list",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/system/user/export-excel",
+      "rawUrl": "/system/user/export-excel",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "DOWNLOAD",
+      "url": "/system/user/get-import-template",
+      "rawUrl": "/system/user/get-import-template",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/system/user/update-password",
+      "rawUrl": "/system/user/update-password",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    },
+    {
+      "app": "admin",
+      "prefix": "/admin-api",
+      "method": "PUT",
+      "url": "/system/user/update-status",
+      "rawUrl": "/system/user/update-status",
+      "files": [
+        "admin/src/api/system/user/index.ts"
+      ]
+    }
+  ],
+  "miniapp": [
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "http://192.168.12.106:8080/postHalo",
+      "rawUrl": "http://192.168.12.106:8080/postHalo",
+      "files": [
+        "miniapp/node_modules/@dcloudio/types/uni-app/uni/base/request.d.ts"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "http://192.168.12.106:8080/postHalo",
+      "rawUrl": "http://192.168.12.106:8080/postHalo",
+      "files": [
+        "miniapp/node_modules/@dcloudio/types/uni-app/uni/base/request.d.ts"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "https://www.googleapis.com/geolocation/v1/geolocate",
+      "rawUrl": "https://www.googleapis.com/geolocation/v1/geolocate?key=${mapInfo.key}",
+      "files": [
+        "miniapp/node_modules/@dcloudio/uni-h5/dist/uni-h5.es.js",
+        "miniapp/node_modules/@dcloudio/uni-h5/dist-x/uni-h5.es.js",
+        "miniapp/node_modules/@dcloudio/uni-h5/dist-x-vapor/uni-h5.es.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/infra/file/presigned-url",
+      "rawUrl": "/infra/file/presigned-url",
+      "files": [
+        "miniapp/sheep/api/infra/file.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/infra/file/create",
+      "rawUrl": "/infra/file/create",
+      "files": [
+        "miniapp/sheep/api/infra/file.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/system/tenant/get-by-website",
+      "rawUrl": "/system/tenant/get-by-website",
+      "files": [
+        "miniapp/sheep/api/infra/tenant.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/address/list",
+      "rawUrl": "/member/address/list",
+      "files": [
+        "miniapp/sheep/api/member/address.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/address/create",
+      "rawUrl": "/member/address/create",
+      "files": [
+        "miniapp/sheep/api/member/address.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/address/update",
+      "rawUrl": "/member/address/update",
+      "files": [
+        "miniapp/sheep/api/member/address.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/address/get",
+      "rawUrl": "/member/address/get",
+      "files": [
+        "miniapp/sheep/api/member/address.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/member/address/delete",
+      "rawUrl": "/member/address/delete",
+      "files": [
+        "miniapp/sheep/api/member/address.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/login",
+      "rawUrl": "/member/auth/login",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/sms-login",
+      "rawUrl": "/member/auth/sms-login",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/send-sms-code",
+      "rawUrl": "/member/auth/send-sms-code",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/logout",
+      "rawUrl": "/member/auth/logout",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/refresh-token",
+      "rawUrl": "/member/auth/refresh-token",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/auth/social-auth-redirect",
+      "rawUrl": "/member/auth/social-auth-redirect",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/social-login",
+      "rawUrl": "/member/auth/social-login",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/weixin-mini-app-login",
+      "rawUrl": "/member/auth/weixin-mini-app-login",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/auth/create-weixin-jsapi-signature",
+      "rawUrl": "/member/auth/create-weixin-jsapi-signature",
+      "files": [
+        "miniapp/sheep/api/member/auth.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/point/record/page",
+      "rawUrl": "/member/point/record/page?${queryString}",
+      "files": [
+        "miniapp/sheep/api/member/point.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/sign-in/config/list",
+      "rawUrl": "/member/sign-in/config/list",
+      "files": [
+        "miniapp/sheep/api/member/signin.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/sign-in/record/get-summary",
+      "rawUrl": "/member/sign-in/record/get-summary",
+      "files": [
+        "miniapp/sheep/api/member/signin.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/sign-in/record/create",
+      "rawUrl": "/member/sign-in/record/create",
+      "files": [
+        "miniapp/sheep/api/member/signin.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/sign-in/record/page",
+      "rawUrl": "/member/sign-in/record/page?${queryString}",
+      "files": [
+        "miniapp/sheep/api/member/signin.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/social-user/get",
+      "rawUrl": "/member/social-user/get",
+      "files": [
+        "miniapp/sheep/api/member/social.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/social-user/bind",
+      "rawUrl": "/member/social-user/bind",
+      "files": [
+        "miniapp/sheep/api/member/social.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/member/social-user/unbind",
+      "rawUrl": "/member/social-user/unbind",
+      "files": [
+        "miniapp/sheep/api/member/social.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/social-user/get-subscribe-template-list",
+      "rawUrl": "/member/social-user/get-subscribe-template-list",
+      "files": [
+        "miniapp/sheep/api/member/social.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/member/social-user/wxa-qrcode",
+      "rawUrl": "/member/social-user/wxa-qrcode",
+      "files": [
+        "miniapp/sheep/api/member/social.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/member/user/get",
+      "rawUrl": "/member/user/get",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/user/update",
+      "rawUrl": "/member/user/update",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/user/update-mobile",
+      "rawUrl": "/member/user/update-mobile",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/user/update-mobile-by-weixin",
+      "rawUrl": "/member/user/update-mobile-by-weixin",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/user/update-password",
+      "rawUrl": "/member/user/update-password",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/member/user/reset-password",
+      "rawUrl": "/member/user/reset-password",
+      "files": [
+        "miniapp/sheep/api/member/user.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "app/mplive/getRoomList",
+      "rawUrl": "app/mplive/getRoomList",
+      "files": [
+        "miniapp/sheep/api/migration/app.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "app/mplive/getMpLink",
+      "rawUrl": "app/mplive/getMpLink",
+      "files": [
+        "miniapp/sheep/api/migration/app.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "third/apple/login",
+      "rawUrl": "third/apple/login",
+      "files": [
+        "miniapp/sheep/api/migration/third.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/channel/get-enable-code-list",
+      "rawUrl": "/pay/channel/get-enable-code-list",
+      "files": [
+        "miniapp/sheep/api/pay/channel.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/order/get",
+      "rawUrl": "/pay/order/get",
+      "files": [
+        "miniapp/sheep/api/pay/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/pay/order/submit",
+      "rawUrl": "/pay/order/submit",
+      "files": [
+        "miniapp/sheep/api/pay/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/transfer/sync",
+      "rawUrl": "/pay/transfer/sync",
+      "files": [
+        "miniapp/sheep/api/pay/transfer.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/wallet/get",
+      "rawUrl": "/pay/wallet/get",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/wallet-transaction/page",
+      "rawUrl": "/pay/wallet-transaction/page?${queryString}",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/wallet-transaction/get-summary",
+      "rawUrl": "/pay/wallet-transaction/get-summary?${queryString}",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/wallet-recharge-package/list",
+      "rawUrl": "/pay/wallet-recharge-package/list",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/pay/wallet-recharge/create",
+      "rawUrl": "/pay/wallet-recharge/create",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/pay/wallet-recharge/page",
+      "rawUrl": "/pay/wallet-recharge/page",
+      "files": [
+        "miniapp/sheep/api/pay/wallet.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/category/list",
+      "rawUrl": "/product/category/list",
+      "files": [
+        "miniapp/sheep/api/product/category.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/category/list-by-ids",
+      "rawUrl": "/product/category/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/product/category.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/comment/page",
+      "rawUrl": "/product/comment/page",
+      "files": [
+        "miniapp/sheep/api/product/comment.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/favorite/page",
+      "rawUrl": "/product/favorite/page",
+      "files": [
+        "miniapp/sheep/api/product/favorite.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/favorite/exits",
+      "rawUrl": "/product/favorite/exits",
+      "files": [
+        "miniapp/sheep/api/product/favorite.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/product/favorite/create",
+      "rawUrl": "/product/favorite/create",
+      "files": [
+        "miniapp/sheep/api/product/favorite.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/product/favorite/delete",
+      "rawUrl": "/product/favorite/delete",
+      "files": [
+        "miniapp/sheep/api/product/favorite.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/product/browse-history/delete",
+      "rawUrl": "/product/browse-history/delete",
+      "files": [
+        "miniapp/sheep/api/product/history.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/product/browse-history/clean",
+      "rawUrl": "/product/browse-history/clean",
+      "files": [
+        "miniapp/sheep/api/product/history.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/browse-history/page",
+      "rawUrl": "/product/browse-history/page",
+      "files": [
+        "miniapp/sheep/api/product/history.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/spu/list-by-ids",
+      "rawUrl": "/product/spu/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/product/spu.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/settlement-product",
+      "rawUrl": "/trade/order/settlement-product",
+      "files": [
+        "miniapp/sheep/api/product/spu.js",
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/spu/page",
+      "rawUrl": "/product/spu/page",
+      "files": [
+        "miniapp/sheep/api/product/spu.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/product/spu/get-detail",
+      "rawUrl": "/product/spu/get-detail",
+      "files": [
+        "miniapp/sheep/api/product/spu.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/activity/list-by-spu-id",
+      "rawUrl": "/promotion/activity/list-by-spu-id",
+      "files": [
+        "miniapp/sheep/api/promotion/activity.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/article/get",
+      "rawUrl": "/promotion/article/get",
+      "files": [
+        "miniapp/sheep/api/promotion/article.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/page",
+      "rawUrl": "/promotion/combination-activity/page",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/get-detail",
+      "rawUrl": "/promotion/combination-activity/get-detail",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-activity/list-by-ids",
+      "rawUrl": "/promotion/combination-activity/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/get-head-list",
+      "rawUrl": "/promotion/combination-record/get-head-list",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/page",
+      "rawUrl": "/promotion/combination-record/page",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/get-detail",
+      "rawUrl": "/promotion/combination-record/get-detail",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/combination-record/get-summary",
+      "rawUrl": "/promotion/combination-record/get-summary",
+      "files": [
+        "miniapp/sheep/api/promotion/combination.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/list-by-ids",
+      "rawUrl": "/promotion/coupon-template/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/list",
+      "rawUrl": "/promotion/coupon-template/list",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/page",
+      "rawUrl": "/promotion/coupon-template/page",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon-template/get",
+      "rawUrl": "/promotion/coupon-template/get",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon/page",
+      "rawUrl": "/promotion/coupon/page",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/promotion/coupon/take",
+      "rawUrl": "/promotion/coupon/take",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon/get",
+      "rawUrl": "/promotion/coupon/get",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/coupon/get-unused-count",
+      "rawUrl": "/promotion/coupon/get-unused-count",
+      "files": [
+        "miniapp/sheep/api/promotion/coupon.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/diy-template/used",
+      "rawUrl": "/promotion/diy-template/used",
+      "files": [
+        "miniapp/sheep/api/promotion/diy.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/diy-template/get",
+      "rawUrl": "/promotion/diy-template/get",
+      "files": [
+        "miniapp/sheep/api/promotion/diy.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/diy-page/get",
+      "rawUrl": "/promotion/diy-page/get",
+      "files": [
+        "miniapp/sheep/api/promotion/diy.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/promotion/kefu-message/send",
+      "rawUrl": "/promotion/kefu-message/send",
+      "files": [
+        "miniapp/sheep/api/promotion/kefu.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/kefu-message/list",
+      "rawUrl": "/promotion/kefu-message/list",
+      "files": [
+        "miniapp/sheep/api/promotion/kefu.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/point-activity/page",
+      "rawUrl": "promotion/point-activity/page",
+      "files": [
+        "miniapp/sheep/api/promotion/point.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/point-activity/list-by-ids",
+      "rawUrl": "/promotion/point-activity/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/promotion/point.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/point-activity/get-detail",
+      "rawUrl": "promotion/point-activity/get-detail",
+      "files": [
+        "miniapp/sheep/api/promotion/point.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/reward-activity/get",
+      "rawUrl": "/promotion/reward-activity/get",
+      "files": [
+        "miniapp/sheep/api/promotion/rewardActivity.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/seckill-config/list",
+      "rawUrl": "promotion/seckill-config/list",
+      "files": [
+        "miniapp/sheep/api/promotion/seckill.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/seckill-activity/get-now",
+      "rawUrl": "promotion/seckill-activity/get-now",
+      "files": [
+        "miniapp/sheep/api/promotion/seckill.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/seckill-activity/page",
+      "rawUrl": "promotion/seckill-activity/page",
+      "files": [
+        "miniapp/sheep/api/promotion/seckill.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/promotion/seckill-activity/list-by-ids",
+      "rawUrl": "/promotion/seckill-activity/list-by-ids",
+      "files": [
+        "miniapp/sheep/api/promotion/seckill.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "promotion/seckill-activity/get-detail",
+      "rawUrl": "promotion/seckill-activity/get-detail",
+      "files": [
+        "miniapp/sheep/api/promotion/seckill.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/system/area/tree",
+      "rawUrl": "/system/area/tree",
+      "files": [
+        "miniapp/sheep/api/system/area.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/system/dict-data/type",
+      "rawUrl": "/system/dict-data/type",
+      "files": [
+        "miniapp/sheep/api/system/dict.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/after-sale/page",
+      "rawUrl": "/trade/after-sale/page",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/trade/after-sale/create",
+      "rawUrl": "/trade/after-sale/create",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/after-sale/get",
+      "rawUrl": "/trade/after-sale/get",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/trade/after-sale/cancel",
+      "rawUrl": "/trade/after-sale/cancel",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/after-sale-log/list",
+      "rawUrl": "/trade/after-sale-log/list",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/trade/after-sale/delivery",
+      "rawUrl": "/trade/after-sale/delivery",
+      "files": [
+        "miniapp/sheep/api/trade/afterSale.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/trade/brokerage-user/bind",
+      "rawUrl": "/trade/brokerage-user/bind",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/get",
+      "rawUrl": "/trade/brokerage-user/get",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/get-summary",
+      "rawUrl": "/trade/brokerage-user/get-summary",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-record/page",
+      "rawUrl": "/trade/brokerage-record/page?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/trade/brokerage-withdraw/create",
+      "rawUrl": "/trade/brokerage-withdraw/create",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-withdraw/page",
+      "rawUrl": "/trade/brokerage-withdraw/page?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-withdraw/get",
+      "rawUrl": "/trade/brokerage-withdraw/get",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-record/get-product-brokerage-price",
+      "rawUrl": "/trade/brokerage-record/get-product-brokerage-price",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/get-rank-by-price",
+      "rawUrl": "/trade/brokerage-user/get-rank-by-price?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/rank-page-by-price",
+      "rawUrl": "/trade/brokerage-user/rank-page-by-price?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/rank-page-by-user-count",
+      "rawUrl": "/trade/brokerage-user/rank-page-by-user-count?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/brokerage-user/child-summary-page",
+      "rawUrl": "/trade/brokerage-user/child-summary-page",
+      "files": [
+        "miniapp/sheep/api/trade/brokerage.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/trade/cart/add",
+      "rawUrl": "/trade/cart/add",
+      "files": [
+        "miniapp/sheep/api/trade/cart.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/trade/cart/update-count",
+      "rawUrl": "/trade/cart/update-count",
+      "files": [
+        "miniapp/sheep/api/trade/cart.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/trade/cart/update-selected",
+      "rawUrl": "/trade/cart/update-selected",
+      "files": [
+        "miniapp/sheep/api/trade/cart.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/trade/cart/delete",
+      "rawUrl": "/trade/cart/delete",
+      "files": [
+        "miniapp/sheep/api/trade/cart.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/cart/list",
+      "rawUrl": "/trade/cart/list",
+      "files": [
+        "miniapp/sheep/api/trade/cart.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/config/get",
+      "rawUrl": "/trade/config/get",
+      "files": [
+        "miniapp/sheep/api/trade/config.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/delivery/express/list",
+      "rawUrl": "/trade/delivery/express/list",
+      "files": [
+        "miniapp/sheep/api/trade/delivery.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/delivery/pick-up-store/list",
+      "rawUrl": "/trade/delivery/pick-up-store/list",
+      "files": [
+        "miniapp/sheep/api/trade/delivery.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/delivery/pick-up-store/get",
+      "rawUrl": "/trade/delivery/pick-up-store/get",
+      "files": [
+        "miniapp/sheep/api/trade/delivery.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/settlement",
+      "rawUrl": "/trade/order/settlement?${queryString}",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/trade/order/create",
+      "rawUrl": "/trade/order/create",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/get-detail",
+      "rawUrl": "/trade/order/get-detail",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/page",
+      "rawUrl": "/trade/order/page",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "PUT",
+      "url": "/trade/order/receive",
+      "rawUrl": "/trade/order/receive",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/trade/order/cancel",
+      "rawUrl": "/trade/order/cancel",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "DELETE",
+      "url": "/trade/order/delete",
+      "rawUrl": "/trade/order/delete",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/get-express-track-list",
+      "rawUrl": "/trade/order/get-express-track-list",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "GET",
+      "url": "/trade/order/get-count",
+      "rawUrl": "/trade/order/get-count",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    },
+    {
+      "app": "miniapp",
+      "prefix": "/app-api",
+      "method": "POST",
+      "url": "/trade/order/item/create-comment",
+      "rawUrl": "/trade/order/item/create-comment",
+      "files": [
+        "miniapp/sheep/api/trade/order.js"
+      ]
+    }
+  ]
+}

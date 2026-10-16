@@ -1,0 +1,48 @@
+{
+  "name": "我的宠物商城",
+  "appid": "",
+  "description": "基于 uni-app + Vue3 技术驱动的在线商城系统，内含诸多功能与丰富的活动，期待您的使用和反馈。",
+  "versionName": "2026.08",
+  "versionCode": "183",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "minified": true,
+      "postcss": true
+    },
+    "optimization": {
+      "subPackages": true
+    },
+    "plugins": {},
+    "lazyCodeLoading": "requiredComponents",
+    "usingComponents": {},
+    "permission": {},
+    "requiredPrivateInfos": [
+      "chooseAddress"
+    ]
+  },
+  "h5": {
+    "template": "index.html",
+    "router": {
+      "mode": "hash",
+      "base": "/miniapp/"
+    },
+    "sdkConfigs": {
+      "maps": {}
+    },
+    "async": {
+      "timeout": 20000
+    },
+    "title": "我的宠物商城",
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    }
+  },
+  "vueVersion": "3",
+  "locale": "zh-Hans",
+  "fallbackLocale": "zh-Hans"
+}
